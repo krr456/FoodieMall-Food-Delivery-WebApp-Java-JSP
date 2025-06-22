@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Segoe UI', sans-serif;
+	background: #f9f9f9;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 400px;
+	background: white;
+	margin: 100px auto;
+	padding: 40px;
+	border-radius: 12px;
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+h1, h2 {
+	color: #333;
+	margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+	width: 100%;
+	padding: 12px;
+	margin: 10px 0;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+}
+
+button {
+	background-color: #ff7043;
+	color: white;
+	padding: 12px 20px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 8px;
+	font-weight: bold;
+	cursor: pointer;
+	width: 100%;
+	transition: background 0.3s ease;
+}
+
+button:hover {
+	background-color: #f4511e;
+}
+
+a {
+	color: #ff7043;
+	text-decoration: none;
+}
+
+.dashboard-links {
+	list-style: none;
+	padding: 0;
+}
+
+.dashboard-links li {
+	margin: 12px 0;
+}
+
+select#role-select {
+	width: 100%;
+	padding: 12px;
+	margin: 10px 0;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	background-color: #fff;
+	font-size: 14px;
+	color: #555;
+	font-family: 'Segoe UI', sans-serif;
+	appearance: none;
+}
+
+select#role-select:focus {
+	border-color: #ff7043;
+	outline: none;
+	box-shadow: 0 0 6px rgba(255, 112, 67, 0.3);
+}
+
+select#role-select option:disabled {
+	color: #555;
+}
+
+input[type="checkbox"] {
+	margin-right: 8px;
+	accent-color: #ff7043;
+}
+
+label a {
+	color: #ff7043;
+	text-decoration: underline;
+}

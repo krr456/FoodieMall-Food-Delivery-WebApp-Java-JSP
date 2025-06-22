@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome to FOODIEMALL</title>
+<style>
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: url('Images/BgWelcome.jpg') no-repeat center center/cover;
+	font-family: 'Brush Script MT', cursive;
+	overflow: hidden;
+}
+
+.welcome-text {
+	width: 200cm;
+	height: 200cm;
+	font-size: 72px;
+	font-weight: bold;
+	color: white;
+	font-style: italic;
+	text-align: center;
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+	animation: fadeIn 2s forwards;
+	opacity: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+@
+keyframes fadeIn { 0% {
+	opacity: 0;
+	transform: scale(0.8);
+}
+100
+%
+{
+opacity
+:
+1;
+transform
+:
+scale(
+1
+);
+}
+}
+</style>
+</head>
+<body>
+
+	<div class="welcome-text"
+		style="display: flex; align-items: center; gap: 10px;">
+		<img src="https://cdn-icons-png.flaticon.com/256/10823/10823283.png"
+			alt="FoodieMall Icon" style="width: 4cm; height: 4cm;"> <span
+			style="color: #1a1a1a;">𝔣Ｏ𝕠𝕕iⓔϻａℓ𝓁</span>
+	</div>
+
+
+	<script>
+        setTimeout(() => {
+            window.location.href = "callServlet";  
+        }, 3000); 
+    </script>
+
+</body>
+</html>
